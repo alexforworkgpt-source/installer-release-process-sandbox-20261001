@@ -116,6 +116,59 @@ Exact public receipts:
   "known_limitations": {
     "classic-auto-purchase": "OPEN",
     "physical-telegram-authenticated-staging-payment-renewal-concurrency-initial-panel-sync": "BLOCKED"
+  },
+  "tested_public_manifests": {
+    "baseline": {
+      "repository": "alexforworkgpt-source/installer-release-process-sandbox-20261001",
+      "tag": "bundle-v2026.10.01.920",
+      "release_id": 401364352,
+      "manifest_url": "https://github.com/alexforworkgpt-source/installer-release-process-sandbox-20261001/releases/download/bundle-v2026.10.01.920/release.json",
+      "manifest_sha256": "8c9aa7a3619a3f6f9fa338cbb72a20d68dc74da39dc1f2b307bab7d3d0be3783",
+      "bundle_identity": "419a22e0c4579d7f9d13750feb97cfe92992cd9daf9e89dcc4a235d0526537e9",
+      "installer_sha": "75c49bec9c2a764e123fc0ef675f8c45fc22a1ab",
+      "bot_sha": "877690a7039d1326b2c00eda3e297879b80c0678",
+      "cabinet_sha": "97e295db4a859d656b58bcbf0693dc3faad04947",
+      "cabinet_artifact_sha256": "027b3b294872794e75d677861b6a433b4b7152953c98022ef6b4441ef296adaa",
+      "publication_run": 36927406817,
+      "immutable": true,
+      "prerelease": false,
+      "smoke": "PASS",
+      "cleanup_postflight": "PASS"
+    },
+    "candidate": {
+      "repository": "alexforworkgpt-source/installer-release-process-sandbox-20261001",
+      "tag": "bundle-v2026.10.01.921",
+      "release_id": 401615033,
+      "manifest_url": "https://github.com/alexforworkgpt-source/installer-release-process-sandbox-20261001/releases/download/bundle-v2026.10.01.921/release.json",
+      "manifest_sha256": "054b00fcf8412eed08f43dc697be5bb84a4aea7491c79a61fc956327d86c005d",
+      "bundle_identity": "f8533c0d7e0a3a06899741cf847e2e923628069ec583447c000117cca2b7bde1",
+      "installer_sha": "75c49bec9c2a764e123fc0ef675f8c45fc22a1ab",
+      "bot_sha": "877690a7039d1326b2c00eda3e297879b80c0678",
+      "cabinet_sha": "97e295db4a859d656b58bcbf0693dc3faad04947",
+      "cabinet_artifact_sha256": "027b3b294872794e75d677861b6a433b4b7152953c98022ef6b4441ef296adaa",
+      "publication_run": 36978509310,
+      "immutable": true,
+      "prerelease": true,
+      "smoke": "PASS",
+      "cleanup_postflight": "PASS"
+    },
+    "candidate-fixed": {
+      "repository": "alexforworkgpt-source/installer-release-process-sandbox-20261001",
+      "tag": "bundle-v2026.10.01.922",
+      "release_id": 401626512,
+      "manifest_url": "https://github.com/alexforworkgpt-source/installer-release-process-sandbox-20261001/releases/download/bundle-v2026.10.01.922/release.json",
+      "manifest_sha256": "6a1380505b9597aad380dfeb117e9b99d1f6cda6a4b54146ecb532304910f457",
+      "bundle_identity": "c110144fd23bf67582049dbec33b5fd6e6213915bce1decf6172ed27fc900040",
+      "installer_sha": "75c49bec9c2a764e123fc0ef675f8c45fc22a1ab",
+      "bot_sha": "877690a7039d1326b2c00eda3e297879b80c0678",
+      "cabinet_sha": "3213c89920cf4a0712fcc2a9443eae13b62ccbc7",
+      "cabinet_artifact_sha256": "027b3b294872794e75d677861b6a433b4b7152953c98022ef6b4441ef296adaa",
+      "publication_run": 36980049522,
+      "immutable": true,
+      "prerelease": false,
+      "smoke": "PASS",
+      "cleanup_postflight": "PASS"
+    }
   }
 }
 ```
